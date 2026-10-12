@@ -1,8 +1,8 @@
 <div align="center">
 
-# 📬 Unique Problem Statement Email Automation
+# 📬 Unique Content Email Automation
 
-### *A fault-tolerant Python dispatch engine that distributes guaranteed non-repeating problem statements to candidates, interviewees, and participants over SMTP.*
+### *A fault-tolerant Python dispatch engine that distributes given content(images, text, links)  to candidates, interviewees, and participants over SMTP.*
 
 [![CI Pipeline](https://github.com/gowthambavikadi/email-automation/actions/workflows/ci.yml/badge.svg)](https://github.com/gowthambavikadi/email-automation/actions)
 [![Python Version](https://img.shields.io/badge/python-3.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue.svg?style=flat-square)](https://www.python.org/)
@@ -27,7 +27,7 @@
 
 ---
 
-## ⚡ Highlights
+##  Highlights
 
 - **Zero Duplicates Ever**: Atomic JSON tracker (`sent_tracker.json`) guarantees a participant never receives the same assignment across multiple runs.
 - **Batch-Level Diversity**: Within any single delivery batch, participants receive distinct items from the pool.
@@ -38,7 +38,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language**: Python 3.10+
 - **Data Validation & Settings**: [Pydantic v2](https://docs.pydantic.dev/) & `pydantic-settings`
@@ -49,7 +49,7 @@
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 email_automation/
@@ -84,7 +84,7 @@ email_automation/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 Follow these exact steps to run the project on a clean machine:
 
@@ -136,7 +136,7 @@ SMTP_FROM=your_email@gmail.com
 
 ---
 
-## 💻 Usage Examples
+##  Usage Examples
 
 ### 1. Dry Run Simulation (Safe Preview)
 ```bash
@@ -172,7 +172,7 @@ python send.py
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 The test suite runs 18 unit tests covering mocked SMTP transport, retry logic, state persistence, and parsing edge cases:
 
@@ -193,7 +193,7 @@ tests/test_tracker.py .....                                              [100%]
 
 ---
 
-## 🗺️ Roadmap & Future Work
+##  Roadmap & Future Work
 
 - [x] Non-repeating random selection with persistent atomic state tracking
 - [x] Gmail App Password auto-sanitization & STARTTLS/SSL support
@@ -206,7 +206,7 @@ tests/test_tracker.py .....                                              [100%]
 
 ---
 
-## 📜 Repository Information & About Box
+##  Repository Information & About Box
 
 When publishing this repository to GitHub, use these suggested settings:
 
@@ -216,7 +216,7 @@ When publishing this repository to GitHub, use these suggested settings:
 
 ---
 
-## 👤 Author & Contact
+##  Author & Contact
 
 - **Author**: Gowtham Bavikadi
 - **GitHub**: [@gowthambavikadi](https://github.com/gowthambavikadi)
