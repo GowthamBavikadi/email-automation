@@ -1,0 +1,27 @@
+# Unique Problem Statement Email Automation Configuration
+
+smtp:
+  host: "smtp.gmail.com"
+  port: 587
+  username: "${SMTP_USER}"
+  password: "${SMTP_PASS}"
+  use_tls: true
+  use_ssl: false
+  sender_name: "Evaluation Coordinator"
+  from_email: "${SMTP_FROM:-}"
+
+files:
+  emails: "emails.csv"
+  statements: "statements.json"
+  tracker: "sent_tracker.json"
+
+email:
+  subject: "Your Assigned Statement"
+  template: "templates/statement.txt"
+  html_template: "templates/statement.html"
+
+runtime:
+  batch_size: 50
+  delay_seconds: 2.0
+  max_retries: 3
+  retry_delay_seconds: 2.0

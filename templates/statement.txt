@@ -1,0 +1,13 @@
+Hello {{ name if name else 'Participant' }},
+
+Here is your assigned statement:
+
+============================================================
+{{ statement }}
+============================================================
+
+Please read through this carefully.
+If you have any questions, feel free to reply to this email.
+
+Best regards,
+Evaluation Team
